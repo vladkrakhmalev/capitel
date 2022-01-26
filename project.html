@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Капитель</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link type="image/x-icon" href="favicon.ico" rel="icon" />
+    <link rel="stylesheet" href="assets/templates/site/css/uikit.min.css" />
+    <link rel="stylesheet" href="assets/templates/site/css/style.css" />
+    <script type="text/javascript" src="assets/templates/site/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/templates/site/js/uikit.min.js"></script>
+    <script type="text/javascript" src="assets/templates/site/js/jquery.maskedinput.min.js"></script>
+</head>
+<body class="project">
+    <header class="header uk-section uk-section-small">
+        <div class="uk-container">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-auto">
+                    <div class="logo">
+                        <a href="#"><img src="assets/templates/site/images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-text-left uk-visible@m uk-width-auto@m">
+                            <div class="slogan">
+                                Строительство.<br> Строительные услуги.
+                            </div>
+                        </div>
+                        <div class="uk-text-right uk-text-center@m uk-width-auto@m phones-container">
+                            <div class="phones">
+                                <a href="tel:84956407982">+7 (495) 640-79-82</a>
+                                <a href="tel:84959522780">+7 (495) 952-27-80</a>
+                            </div>
+                        </div>
+                        <div class="uk-text-right uk-width-expand@m">
+                            <div class="callback">
+                                <a href="#" class="uk-button button-v1" uk-toggle="target: #modal-callback">Заказать звонок</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav uk-section uk-padding-remove-vertical">
+        <div class="uk-container">
+            <ul>
+                <li><a href="index.html" title="Главная">Главная</a></li>
+                <li class="active"><a href="project.html" title="Проекты">Проекты</a></li>
+                <li><a href="#" title="Аренда техники">Аренда техники</a></li>
+                <li><a href="#" title="Контакты">Контакты</a></li>
+                <li><a href="#" title="Обратная связь">Обратная связь</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="breadcrumb uk-section container-background">
+        <div class="uk-container">
+            <ul class="uk-breadcrumb">
+                <li><a href="index.html">Главная</a></li>
+                <li><span>Проекты</span></li>
+            </ul>
+            <h2>Проекты</h2>
+        </div>
+    </section>
+
+    <section class="filter container-background">
+        <div class="uk-container">
+            <form method="post" action="/" class="form">
+                <div class="style">
+                    <h5>Стиль</h5>
+                    <div class="wrapper">
+                        <select>
+                          <option>Танхаус</option>
+                          <option>Ещё какой-то</option>
+                          <option>И ещё один</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="floor">
+                    <h5>Этажей</h5>
+                    <select>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                </div>
+                <div class="area">
+                    <h5>Площадь М<sup>2</sup></h5>
+                    <div class="area__container">
+                        <label>от</label>
+                        <input type="number">
+                        <label>до</label>
+                        <input type="number">
+                        <div class="slider">
+                            <div class="bar" data-start="0" data-end="100">
+                                <div class="lp" data-pos="0.5"></div>
+                                <div class="rp" data-pos="1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    
+                </script>
+
+                <div class="bedrooms">
+                    <h5>Спальни</h5>
+                    <select>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                </div>
+                <div class="roof">
+                    <h5>Крыша</h5>
+                    <select>
+                      <option>Односкатная</option>
+                      <option>Ещё какая-то</option>
+                      <option>И ещё одна</option>
+                    </select>
+                </div>
+                <div class="price">
+                    <h5>Цена</h5>
+                    <select>
+                      <option>от 2 500 000 руб</option>
+                      <option>от 3 000 000 руб</option>
+                      <option>И ещё что-то</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="catalog uk-section container-background">
+        <div class="uk-container">
+            <div class="wrapper">
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="info">
+                        <h5>Проект дома AS-2148</h5>
+                        <hr class="divider">
+                        <div class="specification">
+                            <div class="area">
+                                <p class="name">Площадь</p>
+                                <p class="value">83 М<sup>2</sup></p>
+                            </div>
+                            <div class="dimensions">
+                                <p class="name">Габариты</p>
+                                <p class="value">8.8 х 7</p>
+                            </div>
+                            <div class="bedrooms">
+                                <p class="name">Спален</p>
+                                <p class="value">3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="product.html" class="button">от 12 600 руб.</a>
+                </div>
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="info">
+                        <h5>Проект дома AS-2148</h5>
+                        <hr class="divider">
+                        <div class="specification">
+                            <div class="area">
+                                <p class="name">Площадь</p>
+                                <p class="value">83 М<sup>2</sup></p>
+                            </div>
+                            <div class="dimensions">
+                                <p class="name">Габариты</p>
+                                <p class="value">8.8 х 7</p>
+                            </div>
+                            <div class="bedrooms">
+                                <p class="name">Спален</p>
+                                <p class="value">3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="product.html" class="button">от 12 600 руб.</a>
+                </div>
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="info">
+                        <h5>Проект дома AS-2148</h5>
+                        <hr class="divider">
+                        <div class="specification">
+                            <div class="area">
+                                <p class="name">Площадь</p>
+                                <p class="value">83 М<sup>2</sup></p>
+                            </div>
+                            <div class="dimensions">
+                                <p class="name">Габариты</p>
+                                <p class="value">8.8 х 7</p>
+                            </div>
+                            <div class="bedrooms">
+                                <p class="name">Спален</p>
+                                <p class="value">3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="product.html" class="button">от 12 600 руб.</a>
+                </div>
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="info">
+                        <h5>Проект дома AS-2148</h5>
+                        <hr class="divider">
+                        <div class="specification">
+                            <div class="area">
+                                <p class="name">Площадь</p>
+                                <p class="value">83 М<sup>2</sup></p>
+                            </div>
+                            <div class="dimensions">
+                                <p class="name">Габариты</p>
+                                <p class="value">8.8 х 7</p>
+                            </div>
+                            <div class="bedrooms">
+                                <p class="name">Спален</p>
+                                <p class="value">3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="product.html" class="button">от 12 600 руб.</a>
+                </div>
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="info">
+                        <h5>Проект дома AS-2148</h5>
+                        <hr class="divider">
+                        <div class="specification">
+                            <div class="area">
+                                <p class="name">Площадь</p>
+                                <p class="value">83 М<sup>2</sup></p>
+                            </div>
+                            <div class="dimensions">
+                                <p class="name">Габариты</p>
+                                <p class="value">8.8 х 7</p>
+                            </div>
+                            <div class="bedrooms">
+                                <p class="name">Спален</p>
+                                <p class="value">3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="product.html" class="button">от 12 600 руб.</a>
+                </div>
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="info">
+                        <h5>Проект дома AS-2148</h5>
+                        <hr class="divider">
+                        <div class="specification">
+                            <div class="area">
+                                <p class="name">Площадь</p>
+                                <p class="value">83 М<sup>2</sup></p>
+                            </div>
+                            <div class="dimensions">
+                                <p class="name">Габариты</p>
+                                <p class="value">8.8 х 7</p>
+                            </div>
+                            <div class="bedrooms">
+                                <p class="name">Спален</p>
+                                <p class="value">3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="product.html" class="button">от 12 600 руб.</a>
+                </div>
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="info">
+                        <h5>Проект дома AS-2148</h5>
+                        <hr class="divider">
+                        <div class="specification">
+                            <div class="area">
+                                <p class="name">Площадь</p>
+                                <p class="value">83 М<sup>2</sup></p>
+                            </div>
+                            <div class="dimensions">
+                                <p class="name">Габариты</p>
+                                <p class="value">8.8 х 7</p>
+                            </div>
+                            <div class="bedrooms">
+                                <p class="name">Спален</p>
+                                <p class="value">3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="product.html" class="button">от 12 600 руб.</a>
+                </div>
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="info">
+                        <h5>Проект дома AS-2148</h5>
+                        <hr class="divider">
+                        <div class="specification">
+                            <div class="area">
+                                <p class="name">Площадь</p>
+                                <p class="value">83 М<sup>2</sup></p>
+                            </div>
+                            <div class="dimensions">
+                                <p class="name">Габариты</p>
+                                <p class="value">8.8 х 7</p>
+                            </div>
+                            <div class="bedrooms">
+                                <p class="name">Спален</p>
+                                <p class="value">3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="product.html" class="button">от 12 600 руб.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pagination container-background">
+        <div class="uk-container">
+            <div class="wrapper">
+                <a href="#" class="control previous"><span uk-pagination-previous></span></a>
+                <ul class="uk-pagination uk-flex-center" uk-margin>
+                    <li  class="uk-active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">9</a></li>
+                </ul>
+                <a href="#" class="control next"><span uk-pagination-next></span></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer uk-section uk-section-small">
+        <div class="uk-container">
+
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-auto">
+                    <div class="logo">
+                        <a href="#"><img src="assets/templates/site/images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-text-left uk-visible@m uk-width-auto@m">
+                            <div class="slogan">
+                                Строительство.<br> Строительные услуги.
+                            </div>
+                        </div>
+                        <div class="uk-text-right uk-text-center@m uk-width-auto@m phones-container">
+                            <div class="phones">
+                                <a href="tel:84956407982">+7 (495) 640-79-82</a>
+                                <a href="tel:84959522780">+7 (495) 952-27-80</a>
+                            </div>
+                        </div>
+                        <div class="uk-text-right uk-width-expand@m">
+                            <div class="callback">
+                                <a href="#" class="uk-button button-v1" uk-toggle="target: #modal-callback">Заказать звонок</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vcard">
+                <div class="uk-child-width-1-1 uk-child-width-1-3@m uk-grid-small" uk-grid>
+                    <div class="uk-text-center uk-text-left@m">
+                        <div class="copy">&copy; - 2017 Группа компаний «КАПИТЕЛЬ»</div>
+                    </div>
+                    <div class="uk-text-center">
+                        <div class="address">123298, г. Москва, ул. Маршала Бирюзова, д. 1, корп. 1А</div>
+                    </div>
+                    <div class="uk-text-center uk-text-right@m">
+                        <div class="email"><a href="mailto:info@kapitelgrup.ru" class="footer-mail">info@kapitelgrup.ru</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="assets/templates/site/js/script.js"></script>
+</body>
+</html>
